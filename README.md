@@ -1,5 +1,3 @@
-# Technical_Training_Project
- Python application for various technical tasks, created as part of a technical training project
 # Technical Training Project
 
 This repository contains a Python application developed as part of a technical training project. The application integrates various technical functionalities including email sending, location retrieval, hand gesture capture, EC2 instance management, S3 file operations, and a chatbot.
