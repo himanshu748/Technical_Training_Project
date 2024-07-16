@@ -16,14 +16,14 @@ ec2_client = boto3.client('ec2')
 s3_client = boto3.client('s3')
 
 # Initialize Cohere client
-COHERE_API_KEY = '2bdecd6iI83GtBV92Y6xx5BeQtUoN3eHegpc1AEv'
+COHERE_API_KEY = #yourkey
 cohere_client = cohere.Client(COHERE_API_KEY)
 
 # Initialize SerpAPI key
-SERPAPI_API_KEY = '23675a4826deb198848dadd4ae0a3a91850d7c18ee4e3cc49dab571316cf889c'
+SERPAPI_API_KEY = '#yourkey'
 
 # Initialize Google Vision API key
-VISION_API_KEY = 'AIzaSyB3SJUtcMwq69he1Jycd5mgG7Wp-51lXSg'
+VISION_API_KEY = '#yourapikey'
 
 def describe_image(image_path):
     try:
